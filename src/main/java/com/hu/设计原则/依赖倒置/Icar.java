@@ -7,4 +7,5 @@ package com.hu.设计原则.依赖倒置;
  */
 public interface Icar {
     void run();
+
 }

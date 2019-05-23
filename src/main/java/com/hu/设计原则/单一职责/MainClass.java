@@ -25,6 +25,14 @@ public class MainClass {
         Work work = house;
         live.live();
         work.work();
+        //此时我需要在work里面做修改，就要修改house
+
+        //第二种，以单一职责设计
+        Live live2 = new LiveImpl();
+        Work work2 = new WorkImpl();
+        Work work3 = new WorkImpl();
+        live2.live();
+        work2.work();
 
     }
 
